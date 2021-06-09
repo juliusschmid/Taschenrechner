@@ -15,6 +15,7 @@
 		3B93BD4526624677004E7448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B93BD4326624677004E7448 /* LaunchScreen.storyboard */; };
 		3B93BD5026624678004E7448 /* TaschenrechnerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B93BD4F26624678004E7448 /* TaschenrechnerTests.swift */; };
 		3B93BD5B26624678004E7448 /* TaschenrechnerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B93BD5A26624678004E7448 /* TaschenrechnerUITests.swift */; };
+		4B31964526665EBD00815A29 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B31964426665EBD00815A29 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		3B93BD5626624678004E7448 /* TaschenrechnerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaschenrechnerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B93BD5A26624678004E7448 /* TaschenrechnerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaschenrechnerUITests.swift; sourceTree = "<group>"; };
 		3B93BD5C26624678004E7448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B31964426665EBD00815A29 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RoundButton.swift; path = "../../../Materialien/7. (App) - Apple Taschenrechner/Taschenrechner/Taschenrechner/RoundButton.swift"; sourceTree = "<group>"; };
+		4B6A18F92667BFA700F680E4 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = ../../MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +102,12 @@
 		3B93BD3726624676004E7448 /* Taschenrechner */ = {
 			isa = PBXGroup;
 			children = (
+				4B6A18F92667BFA700F680E4 /* MyPlayground.playground */,
 				3B93BD3826624676004E7448 /* AppDelegate.swift */,
 				3B93BD3A26624676004E7448 /* SceneDelegate.swift */,
 				3B93BD3C26624676004E7448 /* ViewController.swift */,
 				3B93BD3E26624676004E7448 /* Main.storyboard */,
+				4B31964426665EBD00815A29 /* RoundButton.swift */,
 				3B93BD4126624677004E7448 /* Assets.xcassets */,
 				3B93BD4326624677004E7448 /* LaunchScreen.storyboard */,
 				3B93BD4626624677004E7448 /* Info.plist */,
@@ -258,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B31964526665EBD00815A29 /* RoundButton.swift in Sources */,
 				3B93BD3D26624676004E7448 /* ViewController.swift in Sources */,
 				3B93BD3926624676004E7448 /* AppDelegate.swift in Sources */,
 				3B93BD3B26624676004E7448 /* SceneDelegate.swift in Sources */,
@@ -437,7 +443,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48RDA7CYY5;
 				INFOPLIST_FILE = Taschenrechner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,7 +463,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 48RDA7CYY5;
 				INFOPLIST_FILE = Taschenrechner/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
